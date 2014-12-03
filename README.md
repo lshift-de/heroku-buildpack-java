@@ -1,3 +1,19 @@
+This is a modified version of the Heroku Java buildpack!
+========================
+Heroku has problems with the dependency stack during the build, so this buildpack disables the build step in bin/compile. Otherwise it is the same as the original. This is possible because CAN does not actually require the build step at all.
+
+Original readme follows...
+
+
+
+
+
+
+
+
+
+
+
 Heroku buildpack: Java [![Build Status](https://travis-ci.org/heroku/heroku-buildpack-java.svg)](https://travis-ci.org/heroku/heroku-buildpack-java)
 =========================
 
