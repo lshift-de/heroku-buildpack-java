@@ -1,3 +1,12 @@
+This repository is purely an archive! No longer in active use on the CAN project.
+========================
+
+
+
+
+
+
+
 This is a modified version of the Heroku Java buildpack!
 ========================
 Heroku has problems with the dependency stack during the build, so this buildpack disables the build step in bin/compile. Otherwise it is the same as the original. This is possible because CAN does not actually require the build step at all.
